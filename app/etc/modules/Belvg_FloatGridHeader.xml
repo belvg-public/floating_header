@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Belvg_FloatGridHeader>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Belvg_FloatGridHeader>
+    </modules>
+</config> 

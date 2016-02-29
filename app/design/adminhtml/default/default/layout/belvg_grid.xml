@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+    <belvg_grid_header>
+   		<reference name="head">
+			<action method="addJs"><script>belvg/grid/header.js</script></action>
+		<!--	<action method="addCss"><name>belvg/grid/header.css</name></action> -->
+		</reference>	
+    </belvg_grid_header>
+
+	<default>
+		<update handle="belvg_grid_header" />
+	</default>
+   
+</layout>

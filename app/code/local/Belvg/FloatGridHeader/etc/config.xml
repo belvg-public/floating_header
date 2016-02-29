@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Belvg_FloatGridHeader>
+            <version>1.0.0</version>
+        </Belvg_FloatGridHeader>
+    </modules>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <float_grid>
+                    <file>belvg_grid.xml</file>
+                </float_grid>
+            </updates>
+        </layout>
+<!--        <events>
+            <controller_action_layout_render_before>
+                <observers>
+                    <belvg_grid_controller_action_layout_render_before>
+                        <type>singleton</type>
+                        <class>Belvg_FloatGridHeader_Model_Observer</class>
+                        <method>controller_action_layout_render_before</method>
+                    </belvg_grid_controller_action_layout_render_before>
+                </observers>
+            </controller_action_layout_render_before>
+        </events> -->
+    </adminhtml> 
+</config>
